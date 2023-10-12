@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drag&Drop</title>
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <div class="board">
+      <div class="column column1">
+        <div class="board-column-header" draggable>First column</div>
+        <div class="board-column-content-wrapper">
+          <div class="board-item item1" draggable>
+            <div class="board-item-content">Item #1</div>
+          </div>
+          <div class="board-item item2" draggable>
+            <div class="board-item-content">Item #2</div>
+          </div>
+          <div class="board-item item3" draggable>
+            <div class="board-item-content">Item #3</div>
+          </div>
+          <div class="board-item item4" draggable>
+            <div class="board-item-content">Item #4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column column2">
+        <div class="board-column-header" draggable>Second column</div>
+        <div class="board-column-content-wrapper">
+          <div class="board-item item6" draggable>
+            <div class="board-item-content">Item #6</div>
+          </div>
+          <div class="board-item item7" draggable>
+            <div class="board-item-content">Item #7</div>
+          </div>
+          <div class="board-item item8" draggable>
+            <div class="board-item-content">Item #8</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column column3">
+        <div class="board-column-header" draggable>Third column</div>
+        <div class="board-column-content-wrapper">
+          <div class="board-item item11" draggable>
+            <div class="board-item-content">Item #11</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="dnd.js"></script>
+  <script src="dnd-items.js"></script>
+  <script src="dnd-columns.js"></script>
+</html>
